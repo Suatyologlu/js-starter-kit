@@ -1,0 +1,48 @@
+<!-- HTML dokümanının başlangıcı -->
+<html lang="en">
+<head>
+    <!-- Metin karakter seti tanımı -->
+    <meta charset="UTF-8">
+    <!-- Tarayıcı uyumluluğunu belirleme -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Cihazların genişliğine uyumlu görüntü sağlama -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Sayfa başlığı -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- JavaScript kodu -->
+    <script>
+        // 'marka' adında bir değişken oluşturuldu (ancak henüz değeri atanmadı)
+        var marka;
+        // 'marka' değişkeni konsola yazdırıldı (şu an undefined olmalı)
+        console.log(marka);
+
+        // 'marka' değişkenine "Opel" değeri atanıyor
+        marka = "Opel";
+        // 'marka' değişkeni konsola yazdırılıyor (şimdi "Opel" olmalı)
+        console.log(marka);
+
+        // 'model' adında bir string değişken oluşturuldu
+        var model ='Astra';
+        // 'model' ve 'marka' değerleri birleştirilip konsola yazdırılıyor
+        console.log(model+ " " +marka);
+
+        // 'maxhiz' adında bir sayısal değişken oluşturuldu
+        var maxhiz=240;
+
+        // 'yakitdeposu' adında bir sayısal değişken oluşturuldu
+        var yakitdeposu = 52;
+        // Yakıt deposu hesaplaması yapılıp sonuç konsola yazdırılıyor
+        console.log(yakitdeposu * 5.60);
+
+        // 'otomatik' adında bir boolean değişken oluşturuldu
+        var otomatik = true;
+        // 'otomatik' değişkeni konsola yazdırılıyor
+        console.log(otomatik);
+
+        // Bilgiler bir araya getirilip konsola yazdırılıyor
+        console.log(marka+' '+model+ ' ' +yakitdeposu+'litre yakıt deposuna sahip ve maksimum '+maxhiz+'km hız yapmaktadır.'+'peki araç otomatik midir ?'+otomatik);
+    </script>
+</body>
+</html>
