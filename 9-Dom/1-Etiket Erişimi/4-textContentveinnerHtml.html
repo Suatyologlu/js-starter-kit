@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Best free stock photos in one</h1>
+        
+    <h3 id="sub-title">Search for free photos..</h3>
+
+    <p> Lorem ipsum dolor <strong>sit amet,</strong> consectetur</p>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+        <script>
+            
+            //textContent örnekleri
+            /*
+            var p = document.getElementsByTagName('p')[0];
+
+            console.log(p);
+            console.log(p.textContent);
+
+            var ul = document.querySelector('ul');
+            console.log(ul); //web tarayıcının consolun da ul ve list kodlarını gösterir
+            console.log(ul.textContent); // sadece ul içerisindeki içerikleri gösterir
+            console.log(document.body.textContent); //body ekranındaki bütün kodları gösterir
+            */
+
+            var p = document.getElementsByTagName('p')[0];
+
+            p.innerHTML='<b>Komple</b> Uygulamalı Web Geliştime';
+
+            var ul = document.querySelector('ul');
+            ul.innerHTML='<li>item 1</li><li>item 2</li>'; //html içerisindeki li tablosunun içeriklerine erişebiliriz.
+
+        </script>
+</body>
+</html>

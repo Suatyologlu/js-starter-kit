@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döngü-Uygulama</title>
+</head>
+<body>
+        <script>
+
+            /*
+                #1 : 10-100 arasındaki sayıları yazdırın.(for)
+
+                #2 : 10-100 arasındaki sayıları 5'er 5'er yazdırın.(while)
+
+                #3 : Login Kontrolü : Kullanıcı adı ve parola 
+                kontrölünden geçene kadar kullanıcı bilgilerini 
+                kullancıdan isteyin.
+
+                    var k_username = "guest";
+                    var k_password = "12345";
+            */
+
+                // 1.Uygulama
+
+                for(var i = 10;i<=100;i++){
+                    console.log(i);
+                }
+
+                // 2.Uygulama
+                
+                var i=10;
+                while (i<=100) 
+                {
+                    console.log(i)
+                    i=i+5;  
+                }
+
+                // 3.Uygulama
+
+                var k_username = "guest";
+                var k_password = "12345";
+                var loggedin = false;
+
+                while (loggedin==false) {
+                    var username = prompt("kullanıcı adı :");
+                    var password = prompt("parola :");
+
+                    if ((k_username == username) && (k_password == password)) {
+                        console.log("giriş yapıldı");
+                        loggedin=true;
+                    }
+                    else{
+                        console.log("hatalı kullanıcı adı veya parola");
+                    }
+                }
+
+                
+
+
+
+        </script>
+</body>
+</html>

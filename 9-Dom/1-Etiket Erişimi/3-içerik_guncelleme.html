@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İçerik Güncelleme</title>
+
+    <style>
+        .active{
+            color:red;
+            border:1px solid blue;
+            padding:10px;
+        }
+
+        .f45{
+            font-size: 45px;
+        }
+    </style>
+
+</head>
+<body>
+        <h1 id="title">Best free stock photos in one</h1>
+        
+        <h3 id="sub-title">Search for free photos..</h3>
+
+        <img src="Pexels'tan Element5 Digital fotoğrafı: https://www.pexels.com/tr-tr/fotograf/beyaz-seramik-kupa-yakinindaki-teal-fujifilm-instax-mini-kamera-1051073/" width="500">
+        <script>
+
+            var title = document.getElementById('title');
+
+            title.classList.add('active');
+
+            console.log(title.classList);
+
+            
+            //NOT: remove ile sildik toogle ile aktif hale getirdik.
+            /*
+            title.classList.remove('f45');
+            title.classList.toggle('f45');
+             */
+
+            /*
+            title.style.color='yellow';
+            title.style.fontSize='45px';
+            title.style.border='1px solid blue';
+            title.style.padding='10px';S
+            */
+        </script>
+</body>
+</html>

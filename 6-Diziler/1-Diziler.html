@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var marka = ["Opel","Toyota","Mazda","Renault"];
+        var model = new Array("Corsa","Yaris","RX-3","Clio");
+
+        console.log(marka[2]);
+        console.log(model[2]);
+
+        //Diziler tanımlandı dizideki marka ve model yazdırıldı
+        model[0]="Astra";
+        
+        console.log(model);
+        //0. Dizideki Corsa'yı Astra olarak değiştirir
+        var auris = ["Toyota","Auris",42,true];
+
+        auris.push('blue'); //Push metodu ile dizinin sonuna blue yazdırdı.
+        auris.unshift('HB'); //Unshift metodu ile dizinin başına HB yazdırdı.
+        /*
+        auris.pop(); //pop metodu dizinin başındaki ilk elemanı sildirir
+        auris.shift(); //shift metodu dizinin sonundaki son elemanı sildirir
+        */
+        console.log(auris);
+
+
+        for(var i=0; i<marka.lenght;i++){
+            console.log(marka[i]);}
+            
+        if(marka.indexOf('Mazda')!==-1){
+                console.log("bulundu");
+        }   else{
+            console.log("aranılan kelime bulunamadı");
+        }
+
+        /*
+            Yukarıdaki kod bloğunda markayı dizi içeriside varmı yokmu olayını sorgulattık 
+        */
+    </script>
+
+</body>
+</html>
