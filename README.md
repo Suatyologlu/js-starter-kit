@@ -9,3 +9,6 @@ Gelecekte öğrenme sürecinde takıldığım her zaman notlarıma geri dönüp 
 Kaynak : https://youtu.be/hHwxdPIUUBo 
 
 Teşekkürler Sadık Turan..
+
+                                                                                                        27.05.2023
+                                                                                                      
