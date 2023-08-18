@@ -10,5 +10,5 @@ Kaynak : https://youtu.be/hHwxdPIUUBo
 
 Teşekkürler Sadık Turan..
 
-                                                                                                        27.05.2023 02:53
+                                                                                                Başlangıç Tarihi  :  27.05.2023 02:53
                                                                                                       
